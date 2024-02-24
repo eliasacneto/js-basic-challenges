@@ -6,7 +6,7 @@
 
 This project was provided by Rocketseat course that the goal is develop 10 challenges in JavaScript.
 
-Demo link:
+Demo link: https://basicjschallenges.netlify.app
 
 ## ⚡️ Techs
 
