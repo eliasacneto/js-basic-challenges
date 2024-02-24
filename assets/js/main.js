@@ -26,39 +26,39 @@ function challenge02() {
 
 function challenge03() {
   var value = prompt(
-    "Vamos verificar se o valor inserido é um Número ou não.\n\nDigite um valor:"
+    "Vamos verificar se o valor inserido é um número ou não.\n\nDigite um valor:"
   );
 
   if (typeof Number(value) === "number" && !isNaN(value)) {
-    alert("É um número");
+    alert(`${value} é um número!`);
   } else {
-    alert("Não é um número");
+    alert(`${value} não é um número!`);
   }
 }
 
 // 04 - Crie um script que declare uma variável e verifique se o seu valor é uma string. Se for, exiba a mensagem "É uma string", caso contrário, exiba a mensagem "Não é uma string".
 
 function challenge04() {
-  var value2 = prompt(
+  var value = prompt(
     "Vamos verificar se o valor inserido é uma String ou não.\n\nDigite um valor:"
   );
-  if (typeof String(value2) === "string" && !Number(value2)) {
-    alert("É uma string");
+  if (typeof String(value) === "string" && !Number(value)) {
+    alert(`${value} é uma string!`);
   } else {
-    alert("Não é uma string");
+    alert(`${value} não é uma string!`);
   }
 }
 
 // 05 - Crie um script que declare uma variável e verifique se o seu valor é um booleano. Se for, exiba a mensagem "É um booleano", caso contrário, exiba a mensagem "Não é um booleano".
 
 function challenge05() {
-  var value3 = prompt(
+  var value = prompt(
     "Vamos verificar se o valor inserido é um Booleano ou não.\n\nDigite um valor:"
   );
-  if (typeof Boolean(value3) === "boolean" && !Number(value3)) {
-    alert("É um booleano");
+  if (typeof Boolean(value) === "boolean" && !Number(value)) {
+    alert(`${value} é um booleano!`);
   } else {
-    alert("Não é um booleano");
+    alert(`${value} não é um booleano!`);
   }
 }
 
@@ -106,7 +106,7 @@ function challenge08() {
   let num1 = prompt(
     "Vamos saber o resultado da divisão entre dois valores.\n\nInsira o primeiro valor:"
   );
-  let num2 = prompt("Insira o segundo valor:");
+  let num2 = prompt("Agora insira o segundo valor:");
 
   num1 = parseInt(num1);
   num2 = parseInt(num2);
@@ -123,31 +123,29 @@ function challenge08() {
 
 function challenge09() {
   let num1 = prompt(
-    "Vamos saber o número inserido é par.\n\nInsira o primeiro valor:"
+    "Vamos saber o número inserido é par.\n\nDigite um número:"
   );
 
   num1 = parseInt(num1);
   if (isNaN(num1)) {
     alert("Você inseriu um valor incorreto! \n\nTente novamente!");
   } else if (num1 % 2 === 0) {
-    alert("É um número par");
+    alert(`${num1} é um número par!`);
   } else {
-    alert("Não é um número par");
+    alert(`${num1} não é um número par!`);
   }
 }
 
 // 10-  Crie um script que declare uma variável e verifique se o seu valor é um número ímpar. Se for, exiba a mensagem "É um número ímpar", caso contrário, exiba a mensagem "Não é um número ímpar".
 function challenge10() {
-  let num1 = prompt(
-    "Vamos saber o número inserido é ímpar.\n\nInsira o primeiro valor:"
-  );
+  let num1 = prompt("Vamos saber o número é ímpar.\n\nDigite um número:");
 
   num1 = parseInt(num1);
   if (isNaN(num1)) {
     alert("Você inseriu um valor incorreto! \n\nTente novamente!");
   } else if (num1 % 2 !== 0) {
-    alert("É um número ímpar");
+    alert(`${num1} é um número ímpar!`);
   } else {
-    alert("Não é um número ímpar");
+    alert(`${num1} não é um número ímpar!`);
   }
 }

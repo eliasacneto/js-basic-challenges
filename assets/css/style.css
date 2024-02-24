@@ -14,11 +14,6 @@ body {
   display: grid;
   place-items: center;
   height: 100vh;
-}
-
-body,
-button,
-input {
   font-family: "DM Sans", sans-serif;
 }
 
@@ -26,7 +21,7 @@ button {
   background-color: #a455e8;
   color: #fff;
   font-weight: bold;
-  border-radius: 0 0.4rem 0.4rem 0;
+  border-radius: 0 0.8rem 0 0.8rem;
   cursor: pointer;
   transition: background-color 0.3s;
 }
@@ -35,16 +30,11 @@ button:hover {
   background-color: #8d4ac7;
 }
 
-.hide {
-  display: none;
-}
-
 main {
   background: #fff;
   box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
   border-radius: 0.6rem;
   padding: 4.8rem 6.4rem 6.4rem;
-
   width: min(42.8rem, 90%);
   margin: 0 auto;
   margin-top: -12rem;
@@ -56,6 +46,7 @@ main {
 h1 {
   font-family: "Montserrat", sans-serif;
   font-size: 2.4rem;
+  margin-top: 1.6rem;
   margin-bottom: 1.6rem;
 }
 
@@ -74,4 +65,18 @@ button {
   padding: 1.6rem;
   margin-top: 1.6rem;
   margin-right: 1.6rem;
+}
+
+u {
+  text-decoration: underline #c086f3;
+}
+
+.copy {
+  padding-top: 4.5rem;
+  font-size: 1.4rem;
+}
+
+a {
+  text-decoration: none;
+  color: #c086f3;
 }
